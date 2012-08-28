@@ -36,6 +36,7 @@ chrome.devtools.panels.create("HTML validator", "devtools.png", "devtools_panel.
             });
             if (toBeInspectedHarEntry === undefined) {
                 report = 'No requests captured. Reload the page to validate the source.';
+				updateIcon('html.png');
                 callback(report);
             } else {
                 toBeInspectedHarEntry.getContent(function (body) {

@@ -1,6 +1,0 @@
-[submodule "tidy-html5"]
-	path = tidy-html5
-	url = git://github.com/w3c/tidy-html5.git
-[submodule "emscripten"]
-	path = emscripten
-	url = git://github.com/kripken/emscripten.git

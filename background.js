@@ -24,6 +24,6 @@ chrome.extension.onConnect.addListener(function(port) {
     });
 });
 
-chrome.extension.onMessage.addListener(function(response) {
+chrome.extension.onRequest.addListener(function(response) {
     notifyDevtools('refresh');
 });
